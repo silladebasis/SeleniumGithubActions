@@ -81,7 +81,7 @@
             <selenium.grid.enabled>true</selenium.grid.enabled>
           </systemPropertyVariables>
           <suiteXmlFiles>
-            <suiteXmlFile>src/test/resources/test-suites/loginTests.xml</suiteXmlFile>
+            <suiteXmlFile>loginTests.xml</suiteXmlFile>
           </suiteXmlFiles>
           <threadCount>5</threadCount>
           <reportsDirectory>target/test-output</reportsDirectory>
