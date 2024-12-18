@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="2">
+    <test name="CheckTest" parallel="methods">
+        <parameter name="browserName" value="Chrome"/>
+        <classes>
+            <class name="tests.CheckTest">
+                <methods>
+                    <include name="testCheckChrome"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="CheckTest1" parallel="methods">
+        <parameter name="browserName" value="Firefox"/>
+        <classes>
+            <class name="tests.CheckTest">
+                <methods>
+                    <include name="testCheckFirefox"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
