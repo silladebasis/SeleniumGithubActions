@@ -85,9 +85,6 @@
           </suiteXmlFiles>
           <threadCount>5</threadCount>
           <reportsDirectory>target/test-output</reportsDirectory>
-          <argLine>
-            -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.9.21/aspectjweaver-1.9.21.jar"
-          </argLine>
         </configuration>
       </plugin>
       <!-- Allure Maven Plugin for generating reports -->
